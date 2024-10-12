@@ -23,7 +23,7 @@ pip install opencv-python
 
 Use local video  
 or  
-Connect USB camera/ webcam
+Connect Lattebyte CM16A series camera/ webcam
 
 ### Running from python using any YOLO model
 
