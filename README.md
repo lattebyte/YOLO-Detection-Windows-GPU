@@ -11,7 +11,7 @@ conda create -n yolo_env -y python=3.9
 conda activate yolo_env
 ```
 
-Install PyTorch with CUDA for GPU based computing. The example below is for CUDA 11.8:
+Install PyTorch with CUDA for GPU based computing. The example below is for CUDA 11.8:  
 CUDA Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
 PyTorch Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
 
@@ -25,9 +25,19 @@ Use local video
 or  
 Connect USB camera/ webcam
 
-### Running from python
+### Running from python using any YOLO model
 
-AI model will be automatically downloaded:
+AI model will be automatically downloaded:  
+To use YOLO11n:  
 ```bash
-python yolo_det_pos.py
+python yolo_det_pos.py yolo11n
+```
+To use YOLOv8m:  
+```bash
+python yolo_det_pos.py yolo11n
+```
+
+To use YOLOv5nu:  
+```bash
+python yolo_det_pos.py yolo11n
 ```
