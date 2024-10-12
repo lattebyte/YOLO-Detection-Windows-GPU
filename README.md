@@ -1,5 +1,7 @@
 ## Getting Started
 
+
+### Setup
 We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `YOLO` package can be installed via:
 
 ```bash
