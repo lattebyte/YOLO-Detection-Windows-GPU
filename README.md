@@ -34,10 +34,10 @@ python yolo_det_pos.py yolo11n
 ```
 To use YOLOv8m:  
 ```bash
-python yolo_det_pos.py yolo11n
+python yolo_det_pos.py yolov8m
 ```
 
 To use YOLOv5nu:  
 ```bash
-python yolo_det_pos.py yolo11n
+python yolo_det_pos.py yolov5nu
 ```
