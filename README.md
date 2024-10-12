@@ -12,8 +12,8 @@ conda activate yolo_env
 ```
 
 Install PyTorch with CUDA for GPU based computing. The example below is for CUDA 11.8:
-CUDA Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive
-PyTorch Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive
+CUDA Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
+PyTorch Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
 
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -21,8 +21,8 @@ pip install ultralytics
 pip install opencv-python
 ```
 
-Use local video
-or
+Use local video  
+or  
 Connect USB camera/ webcam
 
 ### Running from python
